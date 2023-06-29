@@ -36,3 +36,7 @@
 
 - Task summary: Noticed something off from this morning — added one more evaluation metric that felt missing from the earlier comparison.
 - Deliverable: Good enough to not be embarrassing.
+## 2023-06-29 - Day 7: HTML scaffold
+
+- Task summary: One more pass: spent time just reading back through everything to make sure it still made sense end to end.
+- Deliverable: Good enough to not be embarrassing.

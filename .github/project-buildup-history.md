@@ -40,3 +40,7 @@
 
 - Task summary: One more pass: spent time just reading back through everything to make sure it still made sense end to end.
 - Deliverable: Good enough to not be embarrassing.
+## 2023-06-29 - Day 7: HTML scaffold
+
+- Task summary: One more pass: found a duplicate function that slipped in during copy-paste. Removed it.
+- Deliverable: Should've caught it earlier but better now than later.

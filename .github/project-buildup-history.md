@@ -44,3 +44,7 @@
 
 - Task summary: One more pass: found a duplicate function that slipped in during copy-paste. Removed it.
 - Deliverable: Should've caught it earlier but better now than later.
+## 2023-06-30 - Day 8: Styling
+
+- Task summary: This was the middle stretch where the project started feeling real. I kept going and tried to apply layout, spacing, color, and typography until the project reads clearly, then cleaned up whatever looked confusing or weak from the earlier days. Once the base made some sense, I could finally move a bit faster and stop second guessing every tiny decision. I was also trying to keep the idea grounded so it did not drift into random features for no reason.
+- Deliverable: Ended the day with usable UI in hand, plus a few side notes on what still needed fixing later. I also left myself a few rough reminders for the next day so I would not have to rediscover the same context again.

@@ -64,3 +64,7 @@
 
 - Task summary: Noticed something off from this morning — resolved a merge conflict that came up when I switched branches to check something else.
 - Deliverable: Wrapped it up properly this time.
+## 2023-07-03 - Day 9: Interactions
+
+- Task summary: Spent another hour on this: there was a subtle off-by-one error in the index slicing that was silently skewing results. Caught it and fixed it.
+- Deliverable: Solid now, moving on.

@@ -56,3 +56,7 @@
 
 - Task summary: Late-night fix: the output formatting looked messy when printed, so added a cleaner display block.
 - Deliverable: Nothing dramatic — just keeping things tidy.
+## 2023-07-03 - Day 9: Interactions
+
+- Task summary: Noticed something off from this morning — the output formatting looked messy when printed, so added a cleaner display block.
+- Deliverable: Minor but worth doing.

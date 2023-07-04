@@ -40,3 +40,7 @@
 
 - Task summary: Closer to the end, I was mostly tightening things up instead of inventing new scope. The job for the day was to add the minimum JavaScript interactions needed to make the flow understandable so the final result looked a bit more complete. The middle part always takes longer than it should, mostly becuase one fix usually reveals two more things to clean up. A good chunk of the day went into making the flow feel believable from a user point of view.
 - Deliverable: Ended the day with working interactions in hand, plus a few side notes on what still needed fixing later. There were still a couple of loose parts, but nothing serious enough to block the next step.
+## 2023-07-04 - Day 10: Artifacts
+
+- Task summary: Closer to the end, I was mostly tightening things up instead of inventing new scope. The job for the day was to create or organize diagrams, screenshots, and supporting visuals so the final result looked a bit more complete. Toward the end I mostly kept trimming weird bits, fixing wording, and tying the loose parts together. This kind of work is mostly small decisions stacked together, even if it does not look dramatic from outside.
+- Deliverable: Ended the day with support visuals in hand, plus a few side notes on what still needed fixing later. It was not super polished, just stable enough that I felt okay moving forward.

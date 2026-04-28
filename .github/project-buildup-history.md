@@ -34,7 +34,7 @@
 - Deliverable: Ended the day with initial UI structure in hand, plus a few side notes on what still needed fixing later. It was not super polished, just stable enough that I felt okay moving forward.
 ## 2023-06-29 - Day 7: HTML scaffold
 
-- Task summary: Noticed something off from this morning — added one more evaluation metric that felt missing from the earlier comparison.
+- Task summary: Noticed something off from this morning - added one more evaluation metric that felt missing from the earlier comparison.
 - Deliverable: Good enough to not be embarrassing.
 ## 2023-06-29 - Day 7: HTML scaffold
 
@@ -55,14 +55,14 @@
 ## 2023-07-03 - Day 9: Interactions
 
 - Task summary: Late-night fix: the output formatting looked messy when printed, so added a cleaner display block.
-- Deliverable: Nothing dramatic — just keeping things tidy.
+- Deliverable: Nothing dramatic - just keeping things tidy.
 ## 2023-07-03 - Day 9: Interactions
 
-- Task summary: Noticed something off from this morning — the output formatting looked messy when printed, so added a cleaner display block.
+- Task summary: Noticed something off from this morning - the output formatting looked messy when printed, so added a cleaner display block.
 - Deliverable: Minor but worth doing.
 ## 2023-07-03 - Day 9: Interactions
 
-- Task summary: Noticed something off from this morning — resolved a merge conflict that came up when I switched branches to check something else.
+- Task summary: Noticed something off from this morning - resolved a merge conflict that came up when I switched branches to check something else.
 - Deliverable: Wrapped it up properly this time.
 ## 2023-07-03 - Day 9: Interactions
 

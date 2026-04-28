@@ -144,7 +144,7 @@
 
     <p>With requests safely queued (e.g., via RabbitMQ or Redis List), the execution side of the platform is free to process at the pace of its GPU/CPU resources without dropping external connections.</p>
 
-    <p>Worker processes are highly specialized—typically Python instances loading heavy PyTorch or OpenCV binaries into memory. Their only responsibility is to pop a job ID from the queue, retrieve the image, execute the inference, and update the database record to <code>completed</code> or <code>failed</code>.</p>
+    <p>Worker processes are highly specialized-typically Python instances loading heavy PyTorch or OpenCV binaries into memory. Their only responsibility is to pop a job ID from the queue, retrieve the image, execute the inference, and update the database record to <code>completed</code> or <code>failed</code>.</p>
 
     <p>The strict separation of concerns is structural. The gateway does not know what neural net is running. The worker does not know who the client is. This isolation prevents a bad model update from crashing the API layer, and prevents a traffic spike from crashing the model. If the queue backs up, we spin up more generic worker pods. If the queue drains, we tear them down.</p>
 
@@ -218,7 +218,7 @@
         </defs>
       </svg>
     </div>
-    <figcaption>Fig 1. — The Queue Stack. The API Gateway acts as the strict entry point, separating client synchronous expectations from the async workload. Incoming images are fetched lazily from object storage (S3) by the Python workers. The adaptive batching inset illustrates the internal optimization where workers buffer queue jobs up to a size of 8 or a 50ms window before executing a single matrix multiplication against the GPU.</figcaption>
+    <figcaption>Fig 1. - The Queue Stack. The API Gateway acts as the strict entry point, separating client synchronous expectations from the async workload. Incoming images are fetched lazily from object storage (S3) by the Python workers. The adaptive batching inset illustrates the internal optimization where workers buffer queue jobs up to a size of 8 or a 50ms window before executing a single matrix multiplication against the GPU.</figcaption>
 
     <h2>API_STATE_03: Adaptive Batching</h2>
 
@@ -253,7 +253,7 @@
 
     <p>Finally, a shared platform is only as trustworthy as its failure modes. When the retail team accidentally loops a script that dumps 100,000 images into the API in five minutes, the queue will spike. In a poorly designed synchronous system, the memory fills, the API crashes, and the logistics team’s barcode job silently fails.</p>
 
-    <p>In the async queue architecture, the outcome is safe: the gateway continues returning <code>HTTP 202</code>, pushing IDs to the broker. The Python workers churn through the backlog at their maximum capacity via batching. The retail team's jobs process slowly, but they do process. To protect the logistics team, RabbitMQ enables priority queues or dedicated topic routing—ensuring that high-priority enterprise SLAs are serviced by a dedicated worker subset while the generic pool drains the unexpected retail backlog.</p>
+    <p>In the async queue architecture, the outcome is safe: the gateway continues returning <code>HTTP 202</code>, pushing IDs to the broker. The Python workers churn through the backlog at their maximum capacity via batching. The retail team's jobs process slowly, but they do process. To protect the logistics team, RabbitMQ enables priority queues or dedicated topic routing-ensuring that high-priority enterprise SLAs are serviced by a dedicated worker subset while the generic pool drains the unexpected retail backlog.</p>
     
     <p>Architecting an image processing platform is an exercise in defining borders. The database owns the state. The queue owns the traffic flow. The workers own the math. When these responsibilities are strictly enforced, scalability ceases to be a buzzword and becomes a mechanical byproduct of the system's design.</p>
   </div>
